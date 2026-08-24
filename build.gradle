@@ -1,6 +1,8 @@
 
 buildscript {
     repositories {
+        maven { url "https://artifact.bytedance.com/repository/pangle" }
+        maven { url "https://artifactory.bidmachine.io/bidmachine" }
         google()
         mavenCentral()
         gradlePluginPortal()
@@ -16,6 +18,8 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url "https://artifact.bytedance.com/repository/pangle" }
+        maven { url "https://artifactory.bidmachine.io/bidmachine" }
         google()
         jcenter()
         jcenter { url "http://jcenter.bintray.com/" }
